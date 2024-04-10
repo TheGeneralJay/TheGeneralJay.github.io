@@ -5,7 +5,7 @@
 }
 
 /* ******************************************************** */
-h1, h3, a, p, label {
+h1, h2, h3, a, p, label, td {
     font-family: 'Oxygen', sans-serif;
     color: white;
 }
@@ -113,4 +113,17 @@ main {
     border: 5px dashed rgb(255, 123, 0);
 }
 /* ******************************************************** */
-/* Register */
+/* Resume */
+#resume h2 {
+    padding: 1%;
+}
+#resume hr {
+    margin: 1%;
+}
+#highlights, #technical-skills {
+    margin: auto;
+    color: white;
+}
+#highlights td, #technical-skills td {
+    padding: 10px;
+}
