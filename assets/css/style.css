@@ -172,4 +172,6 @@ main {
 }
 .language-grid hr {
     margin: 1%;
+    grid-column-start: span 3;
+    padding: 0;
 }
