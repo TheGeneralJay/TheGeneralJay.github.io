@@ -1,0 +1,281 @@
+@import url('https://fonts.cdnfonts.com/css/pok');
+
+* {
+    margin: 5px;
+}
+
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: xxx-large;
+    width: 50%;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.54);
+    font-family: "Arial Narrow", sans-serif;
+}
+
+
+header p {
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.54);
+    padding: 10px;
+    font-size: large;
+}
+
+footer p {
+    font-family: "Arial Narrow", sans-serif;
+}
+
+input {
+    padding: 5px;
+    font-family: 'Arial Narrow', sans-serif;
+    width: 20%;
+}
+
+button {
+    padding: 5px;
+    font-family: 'Arial Narrow', sans-serif;
+    width: 15%;
+}
+
+#pokemon-input {
+    color: white;
+    background-color: #487448;
+}
+
+#pokemon-input:hover {
+    background-color: #0D2C25;
+}
+
+#restart {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+#restart:hover {
+    background-color: #0E1C2C;
+}
+
+img {
+    width: 90%;
+    image-rendering: pixelated;
+    border: 2px solid white;
+}
+
+.card {
+    border: 4px solid white;
+    height: 500px;
+    width: 300px;
+}
+
+#pokemon-cards {
+    display: flex;
+    font-family: 'Pokemon Solid', sans-serif;
+    text-align: center;
+}
+
+#pokemon-info {
+    background-color: rgba(255, 255, 255, 0.54);
+    width: 90%;
+    margin: 12px auto;
+    border: 2px solid white;
+}
+
+h2 {
+    font-family: 'Pokemon Hollow', sans-serif;
+}
+
+#normal {
+    background: linear-gradient(to bottom, #C0C0C0 0%, #B1B1B1 50%, #585858 100%);
+}
+
+#normal img {
+    background-image: url("/assets/img/pokemon-api/normal.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#fire {
+    background: linear-gradient(to bottom, #FF930C 0%, #92640B 50%, #714D09 100%);
+}
+
+#fire img {
+    background-image: url("/assets/img/pokemon-api/fire.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#water {
+    background: linear-gradient(to bottom, #5B9EFF 0%, #476692 50%, #355471 100%);
+}
+
+#water img {
+    background-image: url("/assets/img/pokemon-api/water.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#grass {
+    background: linear-gradient(to bottom, #35DF4A 0%, #1D9A24 50%, #092C0A 100%);
+}
+
+#grass img {
+    background-image: url("/assets/img/pokemon-api/grass.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#electric {
+    background: linear-gradient(to bottom, #DFD94F 0%, #9A9232 50%, #2A2C0B 100%);
+}
+
+#electric img {
+    background-image: url("/assets/img/pokemon-api/electric.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ice {
+    background: linear-gradient(to bottom, #5FDFDE 0%, #328D9A 50%, #0E2C2C 100%);
+}
+
+#ice img {
+    background-image: url("/assets/img/pokemon-api/ice.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#fighting {
+    background: linear-gradient(to bottom, #FF1358 0%, #921139 50%, #710D2B 100%);
+}
+
+#fighting img {
+    background-image: url("/assets/img/pokemon-api/fighting.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#poison {
+    background: linear-gradient(to bottom, #DF21D4 0%, #9A3191 50%, #2C102B 100%);
+}
+
+#poison img {
+    background-image: url("/assets/img/pokemon-api/poison.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ground {
+    background: linear-gradient(to bottom, #DF996C 0%, #9A7357 50%, #2C261B 100%);
+}
+
+#ground img {
+    background-image: url("/assets/img/pokemon-api/ground.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#flying {
+    background: linear-gradient(to bottom, #667BDF 0%, #576C9A 50%, #17222C 100%);
+}
+
+#flying img {
+    background-image: url("/assets/img/pokemon-api/flying.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#psychic {
+    background: linear-gradient(to bottom, #F86A7F 0%, #C04F73 50%, #582C3F 100%);
+}
+
+#psychic img {
+    background-image: url("/assets/img/pokemon-api/psychic.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#bug {
+    background: linear-gradient(to bottom, #A2FF62 0%, #639247 50%, #50713D 100%);
+}
+
+#bug img {
+    background-image: url("/assets/img/pokemon-api/bug.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#rock {
+    background: linear-gradient(to bottom, #DFCB8C 0%, #9A7F53 50%, #2C2414 100%);
+}
+
+#rock img {
+    background-image: url("/assets/img/pokemon-api/rock.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ghost {
+    background: linear-gradient(to bottom, #7273FF 0%, #474A92 50%, #3B4371 100%);
+}
+
+#ghost img {
+    background-image: url("/assets/img/pokemon-api/ghost.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#dark {
+    background: linear-gradient(to bottom, #AA8DC0 0%, #807A90 50%, #4D4458 100%);
+}
+
+#dark img {
+    background-image: url("/assets/img/pokemon-api/dark.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#dragon {
+    background: linear-gradient(to bottom, #2F5BFF 0%, #244692 50%, #1A3571 100%);
+}
+
+#dragon img {
+    background-image: url("/assets/img/pokemon-api/dragon.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#steel {
+    background: linear-gradient(to bottom, #5F8DC0 0%, #546790 50%, #2F4558 100%);
+}
+
+#steel img {
+    background-image: url("/assets/img/pokemon-api/steel.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#fairy {
+    background: linear-gradient(to bottom, #DF97D4 0%, #9A6390 50%, #2C192C 100%);
+}
+
+#fairy img {
+    background-image: url("/assets/img/pokemon-api/fairy.png");
+    background-size: cover;
+    background-position: center;
+}

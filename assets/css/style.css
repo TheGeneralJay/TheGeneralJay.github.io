@@ -146,3 +146,30 @@ main {
 .resume-item-ext {
     padding-left: 2%
 }
+/* ******************************************************** */
+/* Projects */
+.language-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+.language-grid a {
+    text-decoration: none;
+}
+.language-grid h2 {
+    padding: 1%;
+    grid-column-start: span 3;
+}
+.language-project {
+    margin: 20px;
+    padding: 1%;
+    border: 2px solid white;
+}
+.language-project:hover {
+    background-color: rgb(59, 65, 87);
+    transform: scale(1.25);
+    cursor: pointer;
+}
+.language-grid hr {
+    margin: 1%;
+}

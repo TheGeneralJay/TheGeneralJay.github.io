@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon API</title>
+    <link rel="stylesheet" href="/assets/css/pokemon-api-style.css">
+    <script src="/assets/js/pokemon-api.js" defer></script>
+   
+</head>
+<body>
+    <header>
+        <h1>Pokémon Card Generator</h1>
+        <br>
+        <p>Enter the name of one to six Pokémon to generate a card for each of your choices, or leave them
+            all blank and press enter for a randomized selection of Pokémon cards.</p>
+    </header>
+    <div id="input">
+        <label for="pokemon-name1"></label>
+        <input type="text" id="pokemon-name1" placeholder="Enter a Pokémon name...">
+        <br>
+        <label for="pokemon-name2"></label>
+        <input type="text" id="pokemon-name2" placeholder="Enter a Pokémon name...">
+        <br>
+        <label for="pokemon-name3"></label>
+        <input type="text" id="pokemon-name3" placeholder="Enter a Pokémon name...">
+        <br>
+        <label for="pokemon-name4"></label>
+        <input type="text" id="pokemon-name4" placeholder="Enter a Pokémon name...">
+        <br>
+        <label for="pokemon-name5"></label>
+        <input type="text" id="pokemon-name5" placeholder="Enter a Pokémon name...">
+        <br>
+        <label for="pokemon-name6"></label>
+        <input type="text" id="pokemon-name6" placeholder="Enter a Pokémon name...">
+        <br>
+        <button type="button" id="pokemon-input">Enter</button>
+    </div>
+    <button type="button" id="restart" onclick="location.reload()">Restart</button>
+    
+    <div id="pokemon-cards"></div>
+    
+    <footer>
+        <p>Background Images &copy; <a href="https://www.deviantart.com/elbarnzo">Elbarnzo</a></p>
+    </footer>
+    
+
+</body>
+</html>
