@@ -5,7 +5,7 @@
 }
 
 /* ******************************************************** */
-h1, h2, h3, a, p, label, td {
+h1, h2, h3, h4, a, p, label, td {
     font-family: 'Oxygen', sans-serif;
     color: white;
 }
@@ -114,7 +114,7 @@ main {
 }
 /* ******************************************************** */
 /* Resume */
-#resume h2 {
+#resume h2, h3, h4 {
     padding: 1%;
 }
 #resume hr {
@@ -126,4 +126,23 @@ main {
 }
 #highlights td, #technical-skills td {
     padding: 10px;
+}
+.resume-grid {
+    display: grid;
+    grid-template-columns: auto 20%;
+}
+.resume-item-title, .resume-item-desc, .resume-item-date {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.resume-item-date {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+}
+.resume-item-desc {
+    padding-top: 0;
+}
+.resume-item-ext {
+    padding-left: 2%
 }
