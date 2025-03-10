@@ -9,6 +9,10 @@ h1, h2, h3, h4, a, p, label, td {
     font-family: 'Oxygen', sans-serif;
     color: white;
 }
+a:hover {
+    color: rgb(255, 123, 0);
+}
+
 input {
     font-family: 'Oxygen', sans-serif;
     color: black;
@@ -78,25 +82,25 @@ p {
     font-size: 150%;
     font-weight: 900;
 }
-.project-completion {
+.socials {
     display: flex;
     align-items: center;
     width: 50%;
-    height: 50px;
+    padding: 10px 0px 10px 0px;
     margin: 2% auto;
     border: 2px solid rgb(255, 123, 0);
     text-align: start;
     transition: 0.25s ease-in-out;
 }
-.project-completion>i {
+.socials>i {
     padding: 5%;
     color: white;
 }
-.project-completion>p {
+.socials>p {
     display: inline;
     font-weight: 900;
 }
-.project-completion:hover {
+.socials:hover {
     background-color: rgb(59, 65, 87);
     transform: scale(1.25);
     cursor: pointer;
@@ -164,6 +168,18 @@ main {
 .resume-item-ext {
     padding-left: 2%
 }
+
+/* ******************************************************** */
+/* Cover Letter */
+#cover-letter > .letter-body {
+    text-indent: 4em;
+}
+
+#cover-letter > p {
+    width: 90%;
+    margin: auto;
+}
+
 /* ******************************************************** */
 /* Projects */
 .language-grid {
