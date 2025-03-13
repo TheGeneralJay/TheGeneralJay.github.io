@@ -7,10 +7,10 @@
 /* ******************************************************** */
 h1, h2, h3, h4, a, p, label, td {
     font-family: 'Oxygen', sans-serif;
-    color: white;
+    color: #EAEAEA;
 }
 a:hover {
-    color: rgb(255, 123, 0);
+    color: #DD6E42;
 }
 
 input {
@@ -19,7 +19,7 @@ input {
 }
 /* ******************************************************** */
 body {
-    background-color: rgb(19, 23, 31);
+    background-color: #28373d;
 }
 
 /* Header */
@@ -41,11 +41,11 @@ h1 {
 #navbar>ul>li>a {
     text-decoration: none;
     padding: 20px;
-    color: white;
+    color: #EAEAEA;
     font-size: 125%;
 }
 #navbar>ul>li>a:hover {
-    color: rgb(255, 123, 0);
+    color: #DD6E42;
 }
 /* ******************************************************** */
 /* Image */
@@ -56,7 +56,7 @@ h1 {
     width: 350px;
     height: 350px;
     border-radius: 360px;
-    border: 2px solid rgb(255, 123, 0);
+    border: 2px solid #DD6E42;
 }
 /* ******************************************************** */
 /* About me / socials */
@@ -70,7 +70,7 @@ p {
     padding: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-bottom: 5px dashed rgb(255, 123, 0);
+    border-bottom: 5px dashed #DD6E42;
 }
 #degree-name-grid {
     display: grid;
@@ -88,20 +88,20 @@ p {
     width: 50%;
     padding: 10px 0px 10px 0px;
     margin: 2% auto;
-    border: 2px solid rgb(255, 123, 0);
+    border: 2px solid #DD6E42;
     text-align: start;
     transition: 0.25s ease-in-out;
 }
 .socials>i {
     padding: 5%;
-    color: white;
+    color: #EAEAEA;
 }
 .socials>p {
     display: inline;
     font-weight: 900;
 }
 .socials:hover {
-    background-color: rgb(59, 65, 87);
+    background-color: #182125;
     transform: scale(1.25);
     cursor: pointer;
 }
@@ -110,21 +110,21 @@ p {
     color: black;
 }
 #contact-info {
-    border: 2px solid rgb(255, 123, 0);
+    border: 2px solid #DD6E42;
     transition: 0.25s ease-in-out;
     margin: auto;
     width: 50%;
 }
 #contact-info:hover {
-    background-color: rgb(59, 65, 87);
+    background-color: #182125;
     transform: scale(1.25);
 }
 #name-and-info {
-    border: 2px solid rgb(255, 123, 0);
+    border: 2px solid #DD6E42;
     transition: 0.25s ease-in-out;
 }
 #name-and-info:hover {
-    background-color: rgb(59, 65, 87);
+    background-color: #182125;
     transform: scale(1.25);
 }
 /* ******************************************************** */
@@ -132,7 +132,7 @@ p {
 main {
     margin: 1% auto;
     width: 65%;
-    border: 5px dashed rgb(255, 123, 0);
+    border: 5px dashed #DD6E42;
 }
 /* ******************************************************** */
 /* Resume */
@@ -144,7 +144,7 @@ main {
 }
 #highlights, #technical-skills {
     margin: auto;
-    color: white;
+    color: #EAEAEA;
 }
 #highlights td, #technical-skills td {
     padding: 10px;
@@ -197,11 +197,11 @@ main {
 .language-project {
     margin: 20px;
     padding: 1%;
-    border: 2px solid white;
+    border: 2px solid #EAEAEA;
     transition: 0.25s ease-in-out;
 }
 .language-project:hover {
-    background-color: rgb(59, 65, 87);
+    background-color: #182125;
     transform: scale(1.25);
     cursor: pointer;
 }
